@@ -1,0 +1,112 @@
+.solution {
+    padding: 60px 0 100px;
+    background-color: #081C2E;
+}
+
+.solution__title {
+    font-size: 46px;
+     text-align: center;
+     color: #fff;
+}
+
+.solution__innet {
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-gap: 30px;
+    margin-top: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    
+
+}
+.solution__item{
+    margin: 0 auto;
+    width: 313px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 90px;
+}
+
+.solution__img{
+width: 100%;
+transition: transform .2s;
+}
+
+.solution__img:hover{
+    transform: scale(1.5)
+}
+
+.solution__item__title {
+     font-size: 20px;
+     font-weight: 400;
+     color: #fff;
+     text-align: center;
+     max-width: 80%;
+     margin: 20px auto 0;
+}
+
+.solution__ul {
+    color: #fff;
+    flex: 1 0 auto;
+}
+
+.solution__price {
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 10px;
+    color: #fff;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.solution__btn {
+    display: block;
+    background: #FFDD4F;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
+    border-radius: 60px;
+    padding: 15px 28px;
+    text-decoration: none;
+    text-align: center;
+    max-width: 130px;
+    margin: 20px auto 0;
+    transition: all .2s ease-in-out;
+
+    /* background-color: #ffdd2d;
+    font-family: haas, pragmatica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    max-width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    transition-property: background-color, border, box-shadow;
+    transition-duration: .25s;
+    transition-timing-function: ease; */
+}
+.btn{
+    background-color: #ffdd2d;
+    font-family: haas, pragmatica, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    position: relative;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    max-width: 100%;
+    cursor: pointer;
+    text-decoration: none;
+    color: #333;
+    font-weight: 400;
+    transition-property: background-color, border, box-shadow;
+    transition-duration: .25s;
+    transition-timing-function: ease;
+}
+

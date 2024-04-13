@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="52" height="49" viewBox="0 0 52 49">
+    <defs>
+        <path id="a" d="M40.578 4h6.595C48.736 4 50 5.298 50 6.902a9.771 9.771 0 0 1-1.696 5.538C46.201 15.496 42.361 20.443 38 23"/>
+        <path id="b" d="M9.422 4H2.827C1.264 4 0 5.298 0 6.902c0 1.982.582 3.917 1.696 5.538C3.799 15.496 7.639 20.443 12 23"/>
+        <path id="c" d="M22 35v5.367c0 1.833-1.792 3.317-4 3.317S14 45.169 14 47h22c0-1.83-1.792-3.316-4-3.316s-4-1.484-4-3.317V35"/>
+        <path id="d" d="M37 0c1.658 0 3 1.305 3 2.917V4.86C40 11.805 38.094 35 25 35S10 11.805 10 4.861V2.917C10 1.305 11.342 0 13 0h24z"/>
+        <path id="e" d="M21.372 15.273L16 10.553l6.887-.782L25 4l2.11 5.771 6.89.783-5.372 4.719 2.1 6.727L25 18.276 19.913 22z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g stroke="#9B9B9B" transform="translate(1 1)">
+            <use xlink:href="#a"/>
+            <use stroke-width="2" xlink:href="#a"/>
+        </g>
+        <g stroke="#9B9B9B" transform="translate(1 1)">
+            <use xlink:href="#b"/>
+            <use stroke-width="2" xlink:href="#b"/>
+        </g>
+        <g stroke="#9B9B9B" transform="translate(1 1)">
+            <use xlink:href="#c"/>
+            <use stroke-width="2" xlink:href="#c"/>
+        </g>
+        <g stroke="#9B9B9B" transform="translate(1 1)">
+            <use xlink:href="#d"/>
+            <use stroke-width="2" xlink:href="#d"/>
+        </g>
+        <g transform="translate(1 1)">
+            <use stroke="#9B9B9B" xlink:href="#e"/>
+            <use stroke="#979797" stroke-width="2" xlink:href="#e"/>
+        </g>
+    </g>
+</svg>
